@@ -6,11 +6,6 @@ async def get_main_menu():
         [
             InlineKeyboardButton(text="Оплатить 11 рублей 💰", callback_data="pay_rub"),
         ],
-        [
-            InlineKeyboardButton(
-                text="Пригласить 5 друзей 👥", callback_data="invite_friends"
-            ),
-        ],
     ]
 
     keyboard = InlineKeyboardMarkup(inline_keyboard=kb)
